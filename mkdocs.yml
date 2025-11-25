@@ -101,6 +101,7 @@ nav:
       - SQLi-labs Less-1: 普通注入SQLi_lab Less-1.md
     - Sqlmap工具:
       - Sqlmap安装与配置: Sqlmap-安装.md
+      - Sqlmap使用手册: sqlmap使用手册.md
       - Sqlmap使用-Less1: Sqlmap-less1.md
       - Sqlmap使用-Less8: Sqlmap-less8.md
       - Sqlmap使用-Less10: Sqlmap-less10.md
@@ -119,6 +120,56 @@ nav:
     - RSA原理: RSA原理.md
   - 学习资源:
     - 网络安全与算法学习平台推荐: 网络安全与算法学习平台推荐.md
+  - CTF工具与杂项:
+    - 信息收集与扫描:
+      - Amass使用手册: amass使用手册.md
+      - Nmap使用手册: nmap使用手册.md
+      - Dirsearch使用手册: dirsearch使用手册.md
+      - FFUF使用手册: ffuf使用手册.md
+      - Gobuster使用指南: gobuster_使用指南.md
+      - Gobuster使用手册: gobuster使用手册.md
+      - DNSRecon使用手册: dnsrecon使用手册.md
+      - Dig使用详尽手册: dig_使用详尽手册.md
+      - Wireshark使用手册: Wireshark使用手册.md
+      - Pyshark使用手册: pyshark使用手册.md
+      - SecLists字典分类详解: SecLists字典分类详解.md
+      - CTF Fuzzing Tools: CTF_Fuzzing_Tools.md
+    - Git泄漏与代码审计:
+      - Git工具大全: Git工具大全.md
+      - Git-Dumper使用手册: git-dumper使用手册.md
+      - GitHacker使用手册: GitHacker使用手册.md
+      - GitTools使用手册: GitTools使用手册.md
+      - Git泄漏找Flag思路总结: Git泄漏找Flag思路总结.md
+      - DS_Store解析指南: DS_Store解析指南.md
+      - DS_Store快速参考: DS_Store快速参考.md
+    - 漏洞利用与爆破:
+      - Hydra使用手册: hydra使用手册.md
+      - Hashcat使用手册: hashcat_使用手册.md
+      - 冰蝎: 冰蝎.md
+    - 隐写与取证:
+      - Binwalk使用手册: binwalk使用手册.md
+      - BKcrack使用指南: bkcrack_使用指南.md
+      - Foremost使用手册: foremost使用手册.md
+      - Exiftool使用手册: exiftool使用手册.md
+      - PNGCheck使用手册: pngcheck使用手册.md
+      - Zsteg使用手册: zsteg使用手册.md
+      - 文件头标识: 文件头标识.md
+    - 逆向与二进制:
+      - pwntools使用手册: pwntools使用手册.md
+      - QEMU使用手册: qemu使用手册.md
+      - Radare2使用手册: radare2使用手册.md
+      - Pyarmor-Static-Unpack-1shot使用手册: Pyarmor-Static-Unpack-1shot使用手册.md
+      - Scrabble使用手册: scrabble使用手册.md
+    - 开发与编解码:
+      - CyberChef使用指南: CyberChef使用指南.md
+      - Django使用手册: django使用手册.md
+      - Nginx使用手册: nginx使用手册.md
+      - Pillow使用手册: pillow使用手册.md
+      - PyCryptodome使用手册: pycryptodome使用手册.md
+      - urllib3使用手册: urllib3使用手册.md
+      - CTF工具安装状态报告: CTF工具安装状态报告.md
+    - 其他:
+      - 操作日志: 操作日志.md
 
 copyright: Copyright &copy; 2025 wilesanGH
 
