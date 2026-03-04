@@ -1,11 +1,11 @@
 site_name: CTF-Web修炼手册
 site_description: Web安全学习笔记，包含SQL注入、XSS、CSRF等常见漏洞的学习记录
-site_author: wilesanGH
-site_url: https://github.com/wilesanGH
+site_author: l
+site_url: https://github.com/lamaper/
 
 # GitHub 仓库链接
-repo_url: https://github.com/wilesanGH/ctf-web
-repo_name: wilesanGH/ctf-web
+repo_url: https://github.com/lamaper/CTF-mind
+repo_name: lamaper/CTF-mind
 
 # 文档目录
 docs_dir: md_docs
@@ -55,58 +55,29 @@ extra_css:
 
 nav:
   - 首页: index.md
-  - 环境搭建:
-    - 靶场环境:
-      - DVWA环境搭建: DVWA环境搭建.md
-      - WebGoat靶场搭建: WebGoat靶场搭建.md
-      - Pikachu靶场搭建: Pikachu靶场搭建.md
-      - Vulhub靶场搭建: Vulhub靶场搭建.md
-      - bWAPP靶场搭建: bWAPP靶场搭建.md
-      - SQLi-labs安装指南: Sqli-labs安装指南.md
-    - 数据库环境:
-      - MySQL安装: Mysql安装.md
+  - 基础知识:
+    - HTTP状态码: http状态码.md
+    - HTTP请求与响应样例: http请求与响应样例.md
+    - Content-Type: content-type.md
+  - SQL注入:
       - MySQL系统表说明: Mysql系统表说明.md
       - MySQL新手必备关键词手册: MySQL新手必备关键词手册.md
-    - 工具安装:
-      - SQL-Hackbar安装: SQL-Hackbar 安装.md
-      - Python安装与VScode配置: Python安装-VScode安装及配置.md
-      - Postman安装与使用: postman安装与使用.md
-      - BurpSuite安装与配置: BurpSuite 安装与配置.md
-      - 图床配置: 图床配置+PicGo.md
-    - 虚拟化环境:
-      - Vmware安装: Vmware安装.md
-      - Kali安装: Kali安装.md
-      - Docker与Docker Compose安装: docker、docker compose安装.md
-  - Web安全基础:
-    - 基础知识:
-      - 常见Web漏洞类型: 常见Web漏洞类型.md
-      - Web安全漏洞分类全景图: Web安全漏洞分类全景图（基础总结）.md
-      - HTTP状态码: http状态码.md
-      - HTTP请求与响应样例: http请求与响应样例.md
-      - Content-Type详解: content-type.md
-  - SQL注入:
-    - 基础知识:
       - SQL注入关键词: SQL注入中的关键词.md
       - 基础SQL注入语句: 基础SQL注入语句大全.md
-    - 漏洞分析:
       - SQL注入漏洞判断与类型分析: SQL注入漏洞判断与类型分析.md
       - 如何判断SQL注入点: 如何判断SQL注入点.md
       - SQL注入完整攻击流程: SQL注入完整攻击流程图.md
       - SQL报错注入详解: SQL 报错注入详解.md
-    - 盲注技术:
       - 布尔盲注原理: bool盲注原理.md
       - 布尔盲注过程: bool盲注过程.md
       - 布尔盲注语句参考: bool盲注语句参考.md
-    - 实战案例:
       - SQLi-labs Less-1: 普通注入SQLi_lab Less-1.md
-    - Sqlmap工具:
-      - Sqlmap安装与配置: Sqlmap-安装.md
       - Sqlmap使用手册: sqlmap使用手册.md
       - Sqlmap使用-Less1: Sqlmap-less1.md
       - Sqlmap使用-Less8: Sqlmap-less8.md
       - Sqlmap使用-Less10: Sqlmap-less10.md
   - XSS:
-    - XSS 完全指南: xss_guide.md
+      - XSS 完全指南: xss_guide.md
   - PHP安全:
     - PHP反序列化:
       - PHP反序列化介绍: php反序列化介绍.md
@@ -116,11 +87,20 @@ nav:
     - PHP绕过技巧:
       - Bash空格绕过技巧: bash空格绕过技巧.md
       - preg_match空格检测绕过策略: preg_match 空格检测绕过策略.md
-  - 密码学:
-    - RSA原理: RSA原理.md
-  - 学习资源:
-    - 网络安全与算法学习平台推荐: 网络安全与算法学习平台推荐.md
-  - CTF工具与杂项:
+  # - Python安全:
+
+  # - Node.js安全:
+
+  # - Go安全:
+
+  # - Java安全:
+
+  - Linux安全:
+    - SUID提权: SUID提权.md
+
+  # - 前沿CVE漏洞分析:
+
+  - CTF工具使用手册:
     - 信息收集与扫描:
       - Amass使用手册: amass使用手册.md
       - Nmap使用手册: nmap使用手册.md
@@ -168,17 +148,13 @@ nav:
       - PyCryptodome使用手册: pycryptodome使用手册.md
       - urllib3使用手册: urllib3使用手册.md
       - CTF工具安装状态报告: CTF工具安装状态报告.md
-    - 其他:
-      - 操作日志: 操作日志.md
 
-copyright: Copyright &copy; 2025 wilesanGH
+copyright: Copyright &copy; 2025 wilesanGH & lamaper
 
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/wilesanGH
-    - icon: fontawesome/brands/gitlab
-      link: https://gitlab.com/wilesanGH
+      link: https://github.com/lamaper
   version:
     provider: mike
 
